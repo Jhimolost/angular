@@ -1,0 +1,19 @@
+#wrapper {
+    height: 60%;
+    color: white;
+    background-color: #8DB9CA;
+    font-size: 3.5vh;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div div{
+    padding-bottom: 10px;
+}
+
+#important{
+    font-weight: 900;
+}

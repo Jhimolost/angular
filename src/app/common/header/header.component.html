@@ -1,0 +1,12 @@
+<mat-toolbar id="header-container">
+    <div id="header-content">
+    <span (click)="scroll('info')">About us</span>
+    <span (click)="scroll('delivery')">Delivery</span>
+    <span (click)="scroll('contact')">Contact</span></div>
+<div>
+  <span class="far fa-user fa-2x curs" mat-button [matMenuTriggerFor]="menu"></span>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Log In</button>
+  </mat-menu>
+</div>
+  </mat-toolbar>

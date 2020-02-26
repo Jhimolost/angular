@@ -1,0 +1,38 @@
+#wrapper{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding:50px;
+}
+
+#send-button{
+    margin: 20x;
+    background-color: #8DB9CA;
+    color: white;
+    z-index: 0;
+    padding: 10px 40px;
+    font-size: 3vh;
+}
+
+mat-form-field, h1 {
+    color: #8DB9CA;
+    width: 50%;
+}
+
+::ng-deep .mat-form-field-label {
+    color: #8DB9CA !important;
+   }
+
+::ng-deep .mat-focused .mat-form-field-label {
+    color: #8DB9CA !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    background-color: #8DB9CA !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   background-color: #8DB9CA !important;;
+  }

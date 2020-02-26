@@ -1,0 +1,35 @@
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.boxes {
+    margin: 50px 100px;
+}
+
+mat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 450px;
+    background-color: white;
+    border: 2px solid #8DB9CA;
+    color: #8DB9CA;
+    font-size: 3vh;
+}
+
+i {
+    padding-bottom: 10px;;
+}
+
+.animated {
+    visibility: visible !important;
+}
+.hide-on-init {
+    visibility: hidden;
+}
